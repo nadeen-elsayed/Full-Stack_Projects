@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+span{
+    padding: 0;
+    margin: 0;
+}
+.shop-main{
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+    .shop-main h1{
+        font-size: 2.5rem;
+        margin-top:3rem ;
+    }
+    .shop-main .catgs-cont{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    justify-content: space-around;
+        padding: 0 2rem;
+        margin-top: 7%;
+        
+    }
+        .shop-main .catgs-cont h3{
+            font-weight: lighter;
+            letter-spacing: 3px;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .shop-main .catgs-cont ul{
+            list-style: none;
+            display: inline;
+            width: 30%;
+            margin-left: 7%;
+        
+        }
+        .shop-main .catgs-cont li{
+            display: inline;
+            border: 1.7px black solid;
+            padding: 0.5rem 1rem;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+            border-radius: 30px;
+        }
+    .shop-main .phone-cont{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: auto;
+    }
+        .shop-main .phone-cont div{
+            background-color: rgb(247,241,238);
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 20px;
+            width: 300px;
+            padding-top: 1rem;
+            padding-bottom: 0;
+            overflow: hidden;
+        }
+        .shop-main .phone-cont img{
+            width: 200px;
+            margin: auto;
+            padding-left: 3rem; 
+        }
+        .shop-main .phone-cont .prod-title{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            align-content: flex-end;
+        }
+            .shop-main .phone-cont .prod-title h3{
+                font-size: 1rem;
+                letter-spacing: 0.5px;
+                padding-bottom: 0;
+                margin-bottom: 0;
+                color: rgb(51, 40, 38);
+            }
+            .shop-main .phone-cont .prod-title span{
+                color:rgb(48,36,36);
+                font-weight: bolder;
+            }
+            .shop-main .phone-cont .prod-title button{
+                background-color: rgb(48,36,36);
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                color: white;
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+
+@media (max-width:1024px) {
+    .shop-main .catgs-cont{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .shop-main .catgs-cont ul{
+        list-style: none;
+        display: inline;
+        width: 90%;
+        margin-left: 7%;
+    }
+    .shop-main h1{
+        padding-top: 5rem;
+    }
+}
