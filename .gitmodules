@@ -10,3 +10,6 @@
 [submodule "Online_Book_Review_Application"]
 	path = Online_Book_Review_Application
 	url = https://github.com/nadeen-elsayed/Online_Book_Review_Application.git
+[submodule "Online_Course_Application"]
+	path = Online_Course_Application
+	url = https://github.com/nadeen-elsayed/Online_Course_Application.git
