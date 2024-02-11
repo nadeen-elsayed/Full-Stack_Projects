@@ -4,3 +4,6 @@
 [submodule "Emotion_Detection_App"]
 	path = Emotion_Detection_App
 	url = https://github.com/nadeen-elsayed/Emotion_Detection_App.git
+[submodule "Guestbook_App"]
+	path = Guestbook_App
+	url = https://github.com/nadeen-elsayed/Guestbook_App.git
