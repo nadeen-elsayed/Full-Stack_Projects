@@ -1,3 +1,6 @@
 [submodule "Car_Dealership_App"]
 	path = Car_Dealership_App
 	url = https://github.com/nadeen-elsayed/Car_Dealership_App.git
+[submodule "Emotion_Detection_App"]
+	path = Emotion_Detection_App
+	url = https://github.com/nadeen-elsayed/Emotion_Detection_App.git
