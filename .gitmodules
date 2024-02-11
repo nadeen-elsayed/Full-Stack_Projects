@@ -7,3 +7,6 @@
 [submodule "Guestbook_App"]
 	path = Guestbook_App
 	url = https://github.com/nadeen-elsayed/Guestbook_App.git
+[submodule "Online_Book_Review_Application"]
+	path = Online_Book_Review_Application
+	url = https://github.com/nadeen-elsayed/Online_Book_Review_Application.git
